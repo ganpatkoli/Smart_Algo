@@ -1,3 +1,0 @@
-# Smart_Algo
-
-## Users :-
