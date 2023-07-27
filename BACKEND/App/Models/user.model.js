@@ -55,7 +55,13 @@ const userModel = Schema({
         type: String,
         enum: ['0', '1'],
         default: '0'
-    }
+    },
+    Role: {
+        type: String,
+        required: true,
+        trim: true
+    },
+
 },
     {
         timestamps: true
